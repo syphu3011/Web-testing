@@ -1,0 +1,32 @@
+{
+    "data": {
+        "product": [{
+            "id": "ba0001",
+            "name": "Balo Herschel Settlement Standard 15\" M Black",
+            "made_in": "Herschel - Canada",
+            "description": "",
+            "price": "1.320.000 VND",
+            "images": ["-herschel-settlement-standard-15-m-peacoatchicory-coffee-13209-11664589115_270", ".jpg"],
+            "clasify": ["phukien", "balo"],
+            "status": "1"
+        }],
+        "promote": {
+
+        },
+        "customer": {
+
+        },
+        "staff": {
+
+        },
+        "receipt": {
+
+        },
+        "input-product": {
+
+        },
+        "variable": {
+
+        }
+    }
+}

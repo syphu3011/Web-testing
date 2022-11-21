@@ -1,0 +1,151 @@
+#main {
+    display: block;
+}
+
+#search-div {
+    display: none;
+}
+
+#gio-hang {
+    height: 650px;
+    width: 1150px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow-y: scroll;
+    margin-right: -15px;
+    padding-right: 20px;
+    /* border-radius: 20px; */
+}
+
+#di-cart {
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#divdiv-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#gio-hang table {
+    margin: 20px;
+    margin-right: 40px;
+    display: block;
+}
+
+#gio-hang tbody {}
+
+#gio-hang tr {
+    padding: 10px;
+    display: grid;
+    width: 1100px;
+    grid-template-columns: 100px 1fr 130px 1fr 120px 1fr 50px;
+    border-bottom: 1px solid black;
+    gap: 20px;
+}
+
+#gio-hang th {
+    text-align: left;
+}
+
+#active-cart {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    /* height: 100px; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* background-color: aqua; */
+    margin: 20px 0 20px 20px;
+}
+
+#btn-thanhtoan {
+    border: 1px solid gray;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: white;
+    text-align: center;
+    transition: 0.7s;
+}
+
+#btn-thanhtoan:hover {
+    background-color: black;
+    color: white;
+}
+
+#noti,
+#thanh-toan {
+    display: none;
+    z-index: 7;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.24);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#thanh-toan {
+    /* display: flex; */
+}
+
+#noti-noti {
+    /* display: flex; */
+    display: none;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 150px;
+    width: 300px;
+    background-color: white;
+}
+
+#dathang {
+    height: 100px;
+}
+
+#div-thanhtoan {
+    height: 550px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    margin-right: -20px;
+}
+
+#thanhtoan-sp {
+    height: 100px;
+}
+
+#btn-checkcode,
+#btn-xacnhan,
+#btn-huy {
+    font-size: 12px;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    margin-left: 20px;
+}
+
+#btn-checkcode:hover,
+#btn-xacnhan:hover,
+#btn-huy:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

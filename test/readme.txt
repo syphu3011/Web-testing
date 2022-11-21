@@ -1,0 +1,1 @@
+Cần phải chạy trước file index.html với live server port 5500
